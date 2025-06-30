@@ -1,0 +1,15 @@
+
+.letters__wrapper {
+
+  display: flex;
+  gap: 2rem;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 10vw;
+
+  height: 100vh;
+  height: 100svh;
+
+}

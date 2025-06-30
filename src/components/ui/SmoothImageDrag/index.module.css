@@ -1,0 +1,12 @@
+.smooth-image-drag__wrapper {
+    width: fit-content;
+}
+
+.smooth-image-drag__wrapper .img__wrapper {
+  width: 200px;
+  aspect-ratio: 10 / 16;
+}
+
+.smooth-image-drag__wrapper img {
+  object-position: 100% center;
+}

@@ -1,0 +1,105 @@
+.navigation {
+    background-color: auto;
+}
+:where(.nav-slice){
+    transition : all .5s ease ;
+    background-color: var(--bg-body);
+}
+
+
+.menu-btn {
+    --line-size : 60% ;
+    cursor: pointer;
+
+    width: 95px;
+    bottom: 1rem;
+    border : 1px solid var(--secondary-clr) ;
+
+    span {
+        color : var(--bg-body) ;
+    }
+
+    > div:first-child {
+        min-width: 35%;
+        aspect-ratio: 1;
+        gap: 3px;
+        background:#001514 ;
+    }
+    > div:last-child {
+        background : var(--secondary-clr);
+    }
+
+} 
+
+.menu-btn__line {
+    width: var(--line-size);
+    height: 1.1px;
+    background-color: var(--primary-clr);
+    transition: all .3s ease;
+}
+
+.nav__content-wrapper {
+
+    display: grid;
+    grid-template-areas: "x";
+    > * {
+        grid-area: x;
+    }
+
+    ul {
+        font-size: 3vmax;
+    }
+}
+
+
+@media(width < 700px){
+.nav__content-wrapper {
+
+    ul {
+        font-size: 10vw;
+        flex-direction: column;
+    }
+}
+
+
+}
+@media (hover) {
+    
+.menu-btn {
+
+    > div:last-child {
+        overflow:hidden;
+    }
+    
+    > div:last-child:after{
+        content: "menu";
+        position: absolute;
+        inset : 0;
+        display: grid;
+        place-items: center;
+        transition: all .3s ease;
+        translate : 0 120% ;
+        color: var(--bg-body);
+    }
+    
+    span {
+       transition: all .3s ease;
+    }
+    
+    &:hover span{
+        translate : 0 -120% ;
+    }
+    &:hover > div:last-child:after{
+        translate : 0 0 ;
+    }
+
+    &:hover .menu-btn__line:not(:nth-child(2)) {
+        width : calc( var(--line-size) / 2 ) ;
+    }
+
+
+   
+}
+
+
+}

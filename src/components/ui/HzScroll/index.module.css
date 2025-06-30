@@ -1,0 +1,31 @@
+/* .sticky {
+    height: 300vh;
+    height: 300svh;
+} */
+
+
+.wrapper {
+  width: 250vw;
+  display: grid;
+  place-items: center;
+
+  height: 100vh;
+  height: 100svh;
+}
+.wrapper img {
+  aspect-ratio: 16 / 9;
+}
+.wrapper > span {
+  font-size: 22.5vw;
+}
+
+.wrapper__card {
+  --card-width: 200px;
+
+  top: 10%;
+  left: 50%;
+  width: var(--card-width);
+  aspect-ratio: 9 / 16;
+
+  background-color: rgb(0, 128, 128, 0.4);
+}

@@ -1,0 +1,91 @@
+.quote {
+  width: 20ch;
+  font-size: 7vmin;
+  @media(width > 576px){ font-size: clamp(1rem, 5vw, 3rem)}
+}
+
+.features-container {
+    background-color: auto;
+}
+
+.features {
+  --features-title-size: clamp(0.7rem, 3vw - 0.3rem, 0.9rem);
+  --name-size: clamp(1rem, 1.5vw, 1.2rem);
+
+  gap: calc(var(--row-gap) * 2) var(--grid-gap);
+  div {
+    width: calc(
+      (90% / var(--cols)) -
+        (var(--grid-gap) * ((var(--cols) - 1) / var(--cols)))
+    );
+  }
+
+  span {
+    font-size: var(--name-size);
+  }
+}
+
+
+@media (width <= 576px) {
+   .features {
+    --grid-gap: 10vw;
+    --row-gap: 3vw;
+
+    --cols: 2;
+    div:nth-child(3) {
+      min-width: 100%;
+    }
+  }
+}
+
+
+@media(width > 576px){
+.features {
+  --grid-gap: 10vw;
+  --row-gap: 1vw;
+  --cols: 3;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.titles {
+    section:not(:first-child) {
+        margin: 150vh 0;
+    }
+}
+
+.previews {
+    width: 170px;
+    aspect-ratio: 9 / 16;
+    background-color: auto;
+    transition : all .5s ease ;
+}
+
+.img {
+    clip-path: polygon(0 100% , 100% 100%, 100% 100% , 0% 100%);
+}

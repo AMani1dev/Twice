@@ -1,0 +1,206 @@
+
+@import "bootstrap/dist/css/bootstrap.css" layer(bs5);
+
+@layer bs5, init, utility;
+
+:root {
+  --bg-body: rgb(0, 21, 20);
+
+   --color-gray-rgb: 192, 202, 201;
+  --color-black-rgb: 0, 0, 0;
+
+  --primary-clr : rgb(255, 255, 0) ;
+  --secondary-clr : #c0cac9 ;
+
+  --white-clr: hsl(0, 0%, 100%);
+  --white-100: hsl(from var(--white-clr) h s l / 1);
+  --white-90: hsl(from var(--white-clr) h s l / 0.9);
+
+  --dark-clr: #1c1d20;
+  --dark-clr__bg: #1c1d20;
+
+  --dark-100: rgb(from var(--dark-clr) r g b / 1);
+  --dark-90: rgb(from var(--dark-clr) r g b / 0.9);
+  --dark-80: rgb(from var(--dark-clr) r g b / 0.8);
+  --dark-70: rgb(from var(--dark-clr) r g b / 0.7);
+
+  --grey-clr: rgb(128, 128, 128);
+  --grey-100: rgb(from var(--grey-clr) r g b / 1);
+  --grey-90: rgb(from var(--grey-clr) r g b / 0.9);
+  --grey-80: rgb(from var(--grey-clr) r g b / 0.8);
+  --grey-70: rgb(from var(--grey-clr) r g b / 0.7);
+  --grey-40: rgb(from var(--grey-clr) r g b / 0.4);
+
+  --step--100: clamp(0.8889rem, 0.7863rem + 0.5132vw, 1.2rem);
+  --step-0: clamp(1rem, 0.8351rem + 0.8247vw, 1.5rem);
+  --step-100: clamp(1.125rem, 0.8776rem + 1.2371vw, 1.875rem);
+  --step-200: clamp(1.2656rem, 0.91rem + 1.7784vw, 2.3438rem);
+  --step-300: clamp(1.4238rem, 0.927rem + 2.4839vw, 2.9297rem);
+  --step-400: clamp(1.6018rem, 0.9221rem + 3.3984vw, 3.6621rem);
+  --step-500: clamp(1.802rem, 0.8864rem + 4.5783vw, 4.5776rem);
+}
+
+@layer init {
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--grey-40) transparent;
+  }
+
+  body {
+    background-color: var(--bg-body);
+  }
+
+  *,
+  :before,
+  :after {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual,
+      cursive;
+    color: var(--white-90);
+  }
+  ::selection {
+    background: transparent;
+  }
+
+  :where(h1, h2, h3, h4, h5, h6) {
+    text-wrap: balance;
+  }
+
+  img {
+    font-style: italic;
+    color: rgb(255 0 0 / 0.7);
+    vertical-align: middle;
+    object-fit: cover;
+    object-position: center;
+  }
+
+
+  .overlay-gradient {
+    background: rgba(var(--color-gray-rgb), 0.15) url("overlay.png")
+      right top / 10rem 10rem;
+      
+
+
+    mask-image: radial-gradient(
+      at right top,
+      rgba(var(--color-black-rgb), 0.75) 0%,
+      rgba(var(--color-black-rgb), 0) 50%
+    );
+    .active {
+      background-position: 50% -300%;
+    }
+  }
+
+
+
+
+}
+
+@layer utility {
+  /* === Positioning === */
+  .uts-inset-0 {
+    inset: 0;
+  }
+
+  .uts-absolute-init {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .uts-absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+  }
+
+  .uts-middle {
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+  }
+
+  /* === Z-Index === */
+  .uts-z-10 { z-index: 10; }
+  .uts-z-20 { z-index: 20; }
+  .uts-z-50 { z-index: 50; }
+  .uts-z-51 { z-index: 51; }
+  .uts-z-100 { z-index: 100; }
+  .uts-z-101 { z-index: 101; }
+
+  /* === Size & Layout === */
+  .uts-fluid {
+    width: 100%;
+    height: 100%;
+  }
+
+  .uts-vh-100 {
+    height: 100vh;
+    height: 100svh;
+  }
+
+  .uts-vFluid {
+    width: 100vw;
+    height: 100vh;
+    height: 100svh;
+  }
+
+  /* === Flex Utilities === */
+  .uts-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .uts-flex-col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* === Cursor & Transform === */
+  .uts-c-pointer {
+    cursor: pointer;
+  }
+
+  .uts-origin-center {
+    transform-origin: center center;
+  }
+
+  .uts-scale-half {
+    scale: 0.5;
+  }
+
+  .uts-scale-80 {
+    scale: 0.8;
+  }
+
+  .uts-scale-110 {
+    scale: 1.1;
+  }
+
+  /* === Radius === */
+  .uts-ri {
+    border-radius: inherit;
+  }
+
+  /* === Max Width (Character Units) === */
+  .uts-mw-15-ch { max-width: 15ch; }
+  .uts-mw-20-ch { max-width: 20ch; }
+  .uts-mw-25-ch { max-width: 25ch; }
+  .uts-mw-30-ch { max-width: 30ch; }
+  .uts-mw-40-ch { max-width: 40ch; }
+  .uts-mw-50-ch { max-width: 50ch; }
+
+  /* === Font Size Steps === */
+  .uts-step--100 { font-size: var(--step--100); }
+  .uts-step-0 { font-size: var(--step-0); }
+  .uts-step-100 { font-size: var(--step-100); }
+  .uts-step-200 { font-size: var(--step-200); }
+  .uts-step-300 { font-size: var(--step-300); }
+  .uts-step-400 { font-size: var(--step-400); }
+  .uts-step-500 { font-size: var(--step-500); }
+}

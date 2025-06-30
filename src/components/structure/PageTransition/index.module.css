@@ -1,0 +1,12 @@
+.page-transition {
+
+    > div:first-child div {
+        background-color: white;
+        /* translate: 0 -110%; */
+    }
+    > div:last-child div {
+        background-color: white;
+        /* translate: 0 110%; */
+    }
+      
+}

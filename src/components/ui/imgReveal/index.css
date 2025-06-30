@@ -1,0 +1,19 @@
+.container.img-reveal {
+
+   & :where(.img-wrapper.right) img{
+    clip-path: polygon(100% 0, 100% 0, 100% 0, 100% 0);
+   } 
+
+   & :where(.img-wrapper.left) img{
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+   } 
+
+  img {
+    height: 400px;
+  }
+
+  @media (width < 500px) {
+    .row { 
+      flex-direction: column}
+  }
+}

@@ -1,0 +1,35 @@
+.gallery {
+    height: 200vh;
+    /* margin-bottom: 100vh; */
+}
+
+.gallery__wrapper {
+    height: 100vh;
+    height: 100svh;
+
+    display: grid;
+    > * {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+    }
+}
+
+.gallery__element {
+
+    .bg {
+        inset: 0;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+    }
+
+    .images {
+        width: 200px;
+        
+        top: 2vh;
+        right: 5vw;
+        translate: 0 110%;
+
+        img {
+            aspect-ratio:1;
+        }
+    }
+}

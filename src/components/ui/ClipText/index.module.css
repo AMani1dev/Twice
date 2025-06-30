@@ -1,0 +1,53 @@
+.path-text {
+  width: fit-content;
+}
+
+.path-text:after {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0px;
+
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0% 100%);
+}
+
+@media (hover) {
+    .path-text::after {
+        transition: all 0.5s ease;
+    }
+    .path-text:hover:after {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+  
+@supports not (--clip-text__primary-clr: white){
+    .path-text{
+        color: tomato;
+    }
+    .path-text:after {
+        color: white;
+    }
+}
+
+@supports (--clip-text__primary-clr: white){
+    .path-text {
+        --clip-text__primary-clr: white;
+        --clip-text__secondary-clr: var(--grey-40);
+
+        color: var(--clip-text__secondary-clr);
+      }
+      .path-text:after {
+        color: var(--clip-text__primary-clr);
+      }
+      
+}
+
+
+
+
+
+@supports (will-change: clip-path) {
+    .path-text:after {
+      will-change: clip-path;
+    }
+  }
+  

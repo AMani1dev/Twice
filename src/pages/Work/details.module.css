@@ -1,0 +1,73 @@
+.fluid-video {
+    width : calc(100vw - 5vw) ;
+    margin-inline: auto;
+    aspect-ratio: 16 / 9;
+}
+
+
+
+
+
+
+.grid__wrapper {
+    display : grid ;
+    gap : 1rem;
+    padding : 1rem;
+
+ 
+    .img {
+        grid-area : img ;
+    }
+    .video{
+        grid-area : video ;
+    }
+    .description{
+        grid-area : description ;
+    }
+}
+
+@media(width < 768px){
+ .grid__wrapper {
+    grid-template-areas:
+     "video img"
+     "description description"
+    ;
+
+    .img {
+      aspect-ratio: 1;
+    }
+    .video{
+     aspect-ratio: 1;
+    }
+    .description{
+        margin-top: 5rem;
+    }
+ }
+
+}
+
+@media(width >= 768px){
+ .grid__wrapper {
+    grid-template-areas:
+     "img . . video"
+     "description description . video"
+    ;
+
+    .img {
+        width: 20vw;
+        img {
+            aspect-ratio: 1;
+        }
+        aspect-ratio: 1;
+    }
+  
+    span {
+        display: inline-block;
+        max-width: 15ch;
+    }
+    p {
+        max-width: 35ch;
+    }
+ }
+
+}

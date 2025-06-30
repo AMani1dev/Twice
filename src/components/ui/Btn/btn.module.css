@@ -1,0 +1,34 @@
+.animated-btn {
+    opacity : auto;
+}
+
+@media (hover : hover) {
+.animated-btn {
+
+    > div:first-child {
+        width: 2rem;
+        aspect-ratio: 1;
+    }
+    > div:last-child:after {
+        content: attr(data-text);
+        position : absolute ; 
+        inset: 0;
+        transition: all .379s ease;
+        translate : 0 170% ;
+        padding: inherit;
+        rotate: -5deg;
+    }
+
+    > div:last-child span  {
+        transition: all .379s ease;
+    }
+    &:hover > div:last-child span  {
+        translate: 0 -170%;
+        rotate: 5deg;
+    }
+    &:hover > div:last-child:after  {
+        translate: 0 0;
+        rotate: initial;
+    }
+}
+}

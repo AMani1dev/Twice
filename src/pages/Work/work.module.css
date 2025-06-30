@@ -1,0 +1,30 @@
+.title {
+    margin: 15vh 0 5vh 0;
+}
+
+.work-wrapper {
+    --gap : 5vmax 3vmax;
+    padding-inline: 3vmax;
+    gap: var(--gap);
+}
+
+.box__project {
+    --box-mw : 270px ;
+    flex-shrink: 0;
+    width: min(90vw , var(--box-mw) );
+}
+
+.bg-wrapper {
+    aspect-ratio: 16 / 9;
+}
+
+.video-wrapper {
+    z-index: -2;
+    transition: all .5s ease;
+}
+
+@media (hover: hover){
+.box__project:hover .video-wrapper {
+    z-index: initial;
+}
+}

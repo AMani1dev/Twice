@@ -1,0 +1,79 @@
+.contact {
+    --_contact-p-t : 25vh ; 
+    padding-top: var(--_contact-p-t);
+}
+
+
+
+.get-in-touch {
+    @media(width < 768px){
+        font-size: 20vw;
+        max-width: 10ch;
+    }
+    @media(width > 768px){font-size: 10vw}
+}
+
+.video-overlay {
+    width: var(--_video-overlay-w);
+    inset: 0 0 auto auto;
+    transform: rotate(3deg) ;
+}
+
+
+.contact__icon-wrapper {
+    margin-top: 5rem;
+    @media(width < 450px){
+        & {
+            font-size: 4.5vw;
+        }
+    }
+}
+
+
+address {
+    span:last-child {
+        word-spacing: .8;
+    }
+}
+
+
+
+
+@media (width < 576px) {
+    .video-overlay {
+        --_video-overlay-w : 25vmin ;
+        z-index: -1;
+    }
+}
+
+@media (576px < width < 768px) {
+
+.video-overlay {
+    --_video-overlay-w : 17vw ;
+    z-index: -1;
+}
+
+}
+
+@media (width < 768px){
+    .contact-grid-btn{ margin: 3vh auto 1rem auto;}
+    .video-overlay {translate: 0 0% ;}
+}
+
+@media(width > 768px){
+    .video-overlay {
+    --_video-overlay-w : 140px ;
+    z-index: 1;
+    translate:  90% -20%;
+    }
+    .contact {
+    --_contact-p-t : 30vh ; 
+    }
+    .contact-grid-btn {
+    margin: 15vh auto 10vh auto;
+    }
+
+    .touch {
+        z-index: 2;
+    }
+}

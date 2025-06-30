@@ -1,0 +1,16 @@
+.terms {
+    width: min(95vw, 700px);
+
+    margin: 15vw 0 0 0;
+    @media(width < 576px){
+        margin: 15vH 0 0 0;
+    }
+}
+
+.terms__text {
+    margin: 8vw 0 10vw 0;
+}
+
+.ws__5 {
+    word-spacing: -5px;
+}
