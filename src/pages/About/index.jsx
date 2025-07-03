@@ -136,8 +136,7 @@ const TwoPercent = () => {
 
         <video autoPlay loop muted
         className="col col-12 object-fit-cover"
-        // src="/about/videos/two-percent.mp4"
-        src={`${import.meta.env.BASE_URL}about/videos/two-percent.mp4`}
+        src="/about/videos/two-percent.mp4"
         />
 
         <p className="col col-12 mt-3">
