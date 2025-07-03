@@ -1,0 +1,293 @@
+[
+  {
+    "name": "liga-f",
+    "id": "liga-f",
+    "title": "we are winning",
+    "card": {
+      "bgImg": "work/images/work-1.jpg",
+      "videoBg": "work/videos/work-1.mp4",
+      "title": "redefining golf style",
+      "mark": "liga-f"
+    },
+    "fullPage": {
+      "projectInfo": {
+        "clientType": "brand",
+        "talent": "football f players",
+        "mark": "liga f ",
+        "location": "spain",
+        "director": "mauricio garrido"
+      },
+      "fluidVideo": "https://player.vimeo.com/video/1033138464?api=1&autoplay=1&loop=1&muted=1" ,
+      "desc": "The sports and leisurewear brand of the Inditex group has been announced as the new technical sponsor of the Santander Golf Tour, the main women's golf circuit in Spain.",
+      "descSp" : "Thanks to our work, the brand was able to access real-time tailored content and provide its players with professional material for use on their social media." ,
+      "offerings" : ["creativity" , "PREPRODUCTION" , "production" , "POSTPRODUCTION"] ,
+      
+      "imgReveal" :  {
+        "imgRows": [
+      {
+        "position": "left",
+        "src": "workDetails/football/images/img-reveal-1.jpg",
+        "alt": "reveal img"
+      },
+      {
+        "position": "right",
+        "src": "workDetails/football/images/img-reveal-2.jpg",
+        "alt": "reveal img"
+      },
+      {
+        "position": "left",
+        "src": "workDetails/football/images/img-reveal-3.webp",
+        "alt": "reveal img"
+      }
+        ]
+      },
+      "gridSection": {
+        "wrapperTitle" : "Liga F: The Home of the Best Players" ,
+        "wrapperDescription" :"We dive into the world of Liga F to showcase football from a fresh perspective. Passion, strategy, and unforgettable moments define this thrilling competition. An authentic look at the game that unites and inspires." ,
+        "videoSrc": "https://twicemediahouse.com/media/pages/work/liga-f/ba6181c838-1732638857/video-grande-valderrama.mp4",
+        "imgSrc": "workDetails/football/images/sm.webp",
+        "title": "Aitana, the Woman of Gold",
+        "text": "We’ve had the privilege of working and filming content with the best footballer in the world and two-time Ballon d'Or winner. Throughout this project, we had the opportunity to get a closer look at her incredible talent, discipline, and the passion that has made her a global reference in football."
+      },
+      "imgDrag" : {
+        "imagesArray": [
+          {
+            "id": 1,
+            "src" :  "workDetails/football/images/img-drag-1.jpg"
+          },
+          {
+            "id": 2,
+            "src" :  "workDetails/football/images/img-drag-2.jpg"
+          },
+          {
+            "id": 3,
+            "src" :  "workDetails/football/images/img-drag-3.jpg"
+          },
+          {
+            "id": 4,
+            "src" :  "workDetails/football/images/img-drag-4.webp"
+          },
+          {
+            "id": 5,
+            "src" :  "workDetails/football/images/img-drag-5.webp"
+          }
+        ]
+      },
+      "slicedImage" : {
+        "src" : "work/images/work-1.jpg"
+      }
+    }
+  },
+  {
+  "name": "oysho",
+  "id": "oysho",
+  "title": "redefining golf style",
+  "card": {
+    "bgImg": "work/images/work-2.jpg",
+    "videoBg": "work/videos/work-2.mp4",
+    "title": "redefining golf style",
+    "mark": "oysho"
+  },
+  "fullPage": {
+    "projectInfo": {
+      "clientType": "brand",
+      "talent": "oysho players",
+      "mark": "oysho",
+      "location": "la coruna,spain",
+      "director": "mauricio garrido"
+    },
+    "fluidVideo": "https://player.vimeo.com/video/1057895430?autoplay=1&muted=1&loop=1",
+    "desc": "The sports and leisurewear brand of the Inditex group has been announced as the new technical sponsor of the Santander Golf Tour, the main women's golf circuit in Spain.",
+    "descSp": "Thanks to our work, the brand was able to access real-time tailored content and provide its players with professional material for use on their social media.",
+    "offerings": ["creativity", "PREPRODUCTION", "production", "POSTPRODUCTION"],
+      "imgReveal" :  {
+        "imgRows": [
+      {
+        "position": "left",
+        "src": "workDetails/oysho/images/img-reveal-2.webp",
+        "alt": "reveal img"
+      },
+      {
+        "position": "right",
+        "src": "workDetails/oysho/images/img-reveal-1.webp",
+        "alt": "reveal img"
+      },
+      {
+        "position": "left",
+        "src": "workDetails/oysho/images/img-reveal-3.webp",
+        "alt": "reveal img"
+      }
+        ]
+      },
+    "gridSection": {
+      "wrapperTitle": "Embracing Golf with Authenticity and Style",
+      "wrapperDescription": "The challenge is to position OYSHO authentically in the world of golf, connecting the brand not only with sports fashion but with the spirit of the sport itself. This means strengthening its association with golf, sparking interest in the event, and creating visually impactful, inspiring content.",
+      "videoSrc": "https://twicemediahouse.com/media/pages/work/oysho/0706415ad5-1740417083/valderrama-peque-c3-91o.mp4",
+      "imgSrc": "workDetails/oysho/images/sm.webp",
+      "title": "A Coruña Challenge",
+      "text": "To meet this challenge, we deployed a large production team, including a campaign director, two videographers, a photographer, a drone pilot, and, crucially, a live editor. Thanks to this setup, we delivered a high-quality edit in just 24 hours, ensuring immediate impact and engagement."
+    },
+    "imgDrag": {
+      "imagesArray": [
+        {
+          "id": 1,
+          "src": "workDetails/oysho/images/img-drag-1.webp"
+        },
+        {
+          "id": 2,
+          "src": "workDetails/oysho/images/img-drag-2.webp"
+        },
+        {
+          "id": 3,
+          "src": "workDetails/oysho/images/img-drag-3.webp"
+        },
+        {
+          "id": 4,
+          "src": "workDetails/oysho/images/img-drag-4.webp"
+        },
+        {
+          "id": 5,
+          "src": "workDetails/oysho/images/img-drag-5.webp"
+        },
+        {
+          "id": 6,
+          "src": "workDetails/oysho/images/img-drag-6.webp"
+        }
+      ]
+    }
+  }
+  },
+  {
+  "name": "bewatt",
+  "id": "bewatt",
+  "title": "passion for padel",
+  "card": {
+    "bgImg": "work/images/work-3.jpg",
+    "videoBg": "work/videos/work-3.mp4",
+    "title": "unleash the ride",
+    "mark": "bewatt"
+  },
+  "fullPage": {
+    "projectInfo": {
+      "clientType": "brand",
+      "talent": "starvie players",
+      "mark": "starvie",
+      "location": "madrid, spain",
+      "director": "mauricio garrido"
+    },
+    "fluidVideo": "https://player.vimeo.com/video/875961835?api=1&autoplay=1&loop=1&muted=1",
+    "desc": "New technologies were implemented in 2024 by Starvie, the texture on the molds evolved, and new color ranges were introduced. We realized that Starvie's greatest artisan tradition and the new cutting edge technology merged in this new release. That was the foundation upon which the campaign was devised.",
+    "offerings": ["creativity", "PREPRODUCTION", "production", "POSTPRODUCTION"],
+   "imgReveal" :  {
+        "imgRows": [
+      {
+        "position": "left",
+        "src": "workDetails/bewatt/images/img-reveal-1.webp",
+        "alt": "reveal img"
+      },
+      {
+        "position": "right",
+        "src": "workDetails/bewatt/images/img-reveal-2.webp",
+        "alt": "reveal img"
+      },
+      {
+        "position": "left",
+        "src": "workDetails/bewatt/images/img-reveal-3.webp",
+        "alt": "reveal img"
+      }
+        ]
+      },
+    "gridSection": {
+      "wrapperTitle": "Starvie Special Edition",
+      "wrapperDescription": "It's not just about big campaigns. Starvie places great importance on communication and develops various projects and activations throughout the year to keep the brand alive.",
+      "videoSrc": "https://twicemediahouse.com/media/pages/work/starvie/3e81022251-1710277522/clip-pc-starvie.mp4",
+      "imgSrc": "workDetails/bewatt/images/sm.webp",
+      "title": "Starvie Special Edition",
+      "text": "Starvie places great importance on communication and develops various projects and activations throughout the year to keep the brand alive."
+    },
+    "slicedImage": {
+      "src": "workDetails/bewatt/images/sliced.jpg"
+    }
+  }
+  },
+ {
+  "name": "seve",
+  "id": "seve",
+  "title": "inspire daring golf",
+  "card": {
+    "bgImg": "work/images/work-4.jpg",
+    "videoBg": "work/videos/work-4.mp4",
+    "title": "on & off the court",
+    "mark": "seve collection"
+  },
+  "fullPage": {
+    "projectInfo": {
+      "clientType": "brand",
+      "talent": "seve models",
+      "mark": "seve",
+      "location": "santander, spain",
+      "director": "joaco Gasset"
+    },
+    "fluidVideo": "https://player.vimeo.com/video/1059693706?api=1&autoplay=1&loop=1&muted=1",
+    "desc": "We aim to showcase Seve Ballesteros' legacy through the lens and storytelling. We capture the elegance and confidence he embodied, highlighting how his timeless style seamlessly blends with the contemporary fashion of the Seve Collection.",
+    "descSp": "Through visual storytelling, we preserve the legacy of a golf icon while spotlighting a fashion line rooted in history and elegance.",
+    "offerings": ["creative direction", "preproduction", "filming", "postproduction"],
+    "imgReveal": {
+      "imgRows": [
+        {
+          "position": "left",
+          "src": "workDetails/seve/images/img-reveal-1.webp",
+          "alt": "legacy detail"
+        },
+        {
+          "position": "right",
+          "src": "workDetails/seve/images/img-reveal-2.webp",
+          "alt": "seve elegance"
+        },
+        {
+          "position": "left",
+          "src": "workDetails/seve/images/img-reveal-3.webp",
+          "alt": "seve elegance"
+        }
+      ]
+    },
+    "gridSection": {
+      "wrapperTitle": "Legacy in Pedreña",
+      "wrapperDescription": "We were in Pedreña for the launch of SEVE’s clothing line alongside his family. Pedreña holds special significance as the birthplace of SEVE’s sports career and the place where he left his legacy. Over three intense days of filming, we captured the beauty of sunrises and sunsets. Our team documented every detail at the Pedreña Golf Club and SEVE’s family home, ensuring nothing was missed.",
+      "videoSrc": "https://twicemediahouse.com/media/pages/work/seve-collection/f76f70bcf1-1730825747/video-grande.mp4",
+      "imgSrc": "workDetails/seve/images/sm.webp",
+      "title": "Legacy in Pedreña",
+      "text": "From sunrises on the golf course to quiet moments at his family home, every frame is a tribute to the legend of Seve Ballesteros and his lasting influence on style and sport."
+    },
+    "imgDrag": {
+      "imagesArray": [
+        {
+          "id": 1,
+          "src": "workDetails/seve/images/img-drag-1.jpg"
+        },
+        {
+          "id": 2,
+          "src": "workDetails/seve/images/img-drag-2.webp"
+        },
+        {
+          "id": 3,
+          "src": "workDetails/seve/images/img-drag-3.webp"
+        },
+        {
+          "id": 4,
+          "src": "workDetails/seve/images/img-drag-4.webp"
+        },
+        {
+          "id": 5,
+          "src": "workDetails/seve/images/img-drag-5.webp"
+        },
+        {
+          "id": 6,
+          "src": "workDetails/seve/images/img-drag-6.webp"
+        }
+      ]
+    }
+  }
+}
+
+]
